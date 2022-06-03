@@ -23,7 +23,6 @@ function Header({placeholder}) {
     const handleSelect = (ranges) => {
         setStartDate(ranges.selection.startDate)
         setEndDate(ranges.selection.endDate)
-        setSearchInput('')
     }
 
     const resetInput = () => {
